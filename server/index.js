@@ -1,6 +1,6 @@
 import swaggerUi from 'swagger-ui-express';
 import swaggerOptions from './swagger.js';
-import {} from "dotenv/config";
+// import {} from "dotenv/config";
 import express from 'express';
 import mongoConnect from './config/db.config.js';
 import userRouter  from './routes/user.js';
