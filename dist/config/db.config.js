@@ -24,7 +24,7 @@ var mongoConnect = /*#__PURE__*/function () {
         switch (_context.prev = _context.next) {
           case 0:
             _context.next = 2;
-            return _mongoose["default"].connect('mongodb://0.0.0.0:27017/portfolioDb', {
+            return _mongoose["default"].connect('mongodb+srv://Rose-31:ikinyogote@cluster0.ehn4f.mongodb.net/test', {
               useNewUrlParser: true
             }).then(function () {
               return console.log('database connected successfully');
