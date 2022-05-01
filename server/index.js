@@ -18,9 +18,10 @@ app.use('/api/message',messageRoutes )
 app.use('/api/comment', commentRouter)
 app.use('/api/port', swaggerUi.serve,swaggerUi.setup(swaggerOptions))
 
+const port = process.env.PORT || 3000
 
 app.listen(3000, () => {
-    console.log(`Server Started at ${3000}`)
+    console.log(`Server Started at ${port}`)
 })
 
    mongoConnect();
